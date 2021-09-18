@@ -28,7 +28,6 @@ export const Form = () => {
           <option selected>Economy</option>
           <option>Business</option>
           <option>First-class</option>
-          <option>Borolox</option>
         </select>
       </div>
 
