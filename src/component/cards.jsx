@@ -36,7 +36,6 @@ export const Cards = () => {
         <Card
           topBadge="Covid Travel updates"
           eventName="Option without description goes here"
-          description="A small description"
           importance="2 mins read"
           image="https://media.gettyimages.com/photos/illuminated-saint-nicholas-church-against-clear-sky-at-dusk-picture-id556947553?s=612x612"
         />

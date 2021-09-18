@@ -25,8 +25,12 @@ export const Card = ({
         </div>
         <div>
           <h4>{eventName}</h4>
-          <small>{description}</small>
-          <br />
+          {description && (
+            <small>
+              {description}
+              <br />
+            </small>
+          )}
           <span className="mt-2 badge rounded-pill bg-dark text-light p-2 px-3 bg-opacity-75 border-white border border-1">
             <li>{importance}</li>
           </span>
